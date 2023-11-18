@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 33392842353573922}
   - component: {fileID: 23758132917705532}
   - component: {fileID: 65347789334611550}
-  - component: {fileID: -7592528139408662561}
-  m_Layer: 4
+  - component: {fileID: -8962804176342543245}
+  m_Layer: 0
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.2000002, z: 1}
   m_Center: {x: 0, y: -0.100000024, z: 0}
---- !u!114 &-7592528139408662561
+--- !u!114 &-8962804176342543245
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +107,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1487688346712832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfde8be9ae2131a42a77d08b2bf9a902, type: 3}
+  m_Script: {fileID: 11500000, guid: b4fbf8d78dc5c4c4da23a6f26bf4d4de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 65347789334611550}
-  _renderer: {fileID: 23758132917705532}
